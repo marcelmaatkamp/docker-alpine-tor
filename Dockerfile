@@ -1,7 +1,7 @@
-FROM marcelmaatkamp/alpine-base 
+FROM marcelmaatkamp/alpine-base
 
 ADD ./torrc /etc/torrc
-ADD ./tor /usr/local/bin/tora
+ADD ./tor /usr/local/bin/tor
 
 # Allow you to upgrade your relay without having to regenerate keys
 VOLUME /.tor
