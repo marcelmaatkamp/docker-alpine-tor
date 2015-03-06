@@ -2,3 +2,23 @@ Log notice stdout
 ExitPolicy reject *:*
 ORPort 9001
 
+SocksPort 9050 
+SocksBindAddress 0.0.0.0 
+
+# entry, exit, introduction 
+# AllowUnverifiedNodes middle,rendezvous 
+
+# RunAsDaemon 0 
+# User tor 
+
+# DataDirectory /var/lib/tor 
+
+# HiddenServiceDir /var/lib/tor/hidden_service/ 
+# HiddenServicePort 80 127.0.0.1:80 
+
+# enable transparent dns proxy 
+# VirtualAddrNetwork 10.192.0.0/10 
+# AutomapHostsOnResolve 1 
+# public onion dns server 
+# DNSListenAddress 0.0.0.0 
+# DNSPort 53 
