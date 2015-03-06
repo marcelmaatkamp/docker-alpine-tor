@@ -1,6 +1,6 @@
 FROM marcelmaatkamp/alpine-base 
 
-RUN wget --no-check-certificate https://raw.githubusercontent.com/marcelmaatkamp/alpine-packages/master/packages/tor-0.2.5.10.tar.gz
+RUN curl -L https://raw.githubusercontent.com/marcelmaatkamp/alpine-packages/master/packages/tor/static/tor-0.2.5.10-static.tgz | tar zx
 
 ADD ./torrc /etc/torrc
 # Allow you to upgrade your relay without having to regenerate keys
