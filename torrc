@@ -22,4 +22,4 @@ AutomapHostsOnResolve 1
 
 # public onion dns server 
 DNSListenAddress 0.0.0.0 
-DNSPort 53 
+DNSPort 9053 
