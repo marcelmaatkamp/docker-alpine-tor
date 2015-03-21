@@ -18,7 +18,8 @@ SocksBindAddress 0.0.0.0
 
 # enable transparent dns proxy 
 # VirtualAddrNetwork 10.192.0.0/10 
-# AutomapHostsOnResolve 1 
+AutomapHostsOnResolve 1 
+
 # public onion dns server 
-# DNSListenAddress 0.0.0.0 
-# DNSPort 53 
+DNSListenAddress 0.0.0.0 
+DNSPort 53 
