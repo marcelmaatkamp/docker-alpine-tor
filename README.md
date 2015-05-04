@@ -1,6 +1,6 @@
 # alpine-tor
 
-Minimalistic tor docker image based on Alpine Linux (14MB)
+Minimalistic tor docker image based on Alpine Linux (10.42MB)
 ```
  $ docker run -d \
    --name tor \
