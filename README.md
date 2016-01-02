@@ -1,8 +1,6 @@
 # alpine-tor
 
-Minimalistic tor docker image based on Alpine Linux (7MB). The binary comes from the compiled instance of [docker-alpine-build-tor](https://github.com/marcelmaatkamp/docker-alpine-build-tor)
-
-Usage:
+Minimalistic tor docker image based on Alpine Linux (7MB). The binary comes from the compiled instance of [docker-alpine-build-tor](https://github.com/marcelmaatkamp/docker-alpine-build-tor). Usage:
 ```
  $ docker run -d \
    --name tor \
